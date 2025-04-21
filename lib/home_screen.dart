@@ -19,8 +19,8 @@ class _HomeScreenState extends State<HomeScreen> {
   String? callerNickname;
   SendbirdChannels? channels;
 
-  final appId = "D56438AE-B4DB-4DC9-B440-E032D7B35CEB";
-  final userId = "tanika";
+  final appId = "A667513B-411E-404A-B3CA-C0EBD88DD52E";
+  final userId = "sample_code_flutter_ios";
 
   @override
   void initState() {
@@ -179,13 +179,13 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         child: Icon(
           Icons.call,
-          color: Colors.white,
+          color: Colors.green,
           size: 20.0,
         ),
         style: ElevatedButton.styleFrom(
           shape: CircleBorder(),
-          primary: Colors.green, // <-- Button color
-          onPrimary: Colors.green, // <-- Splash color
+          // primary: Colors.green, // <-- Button color
+          // onPrimary: Colors.green, // <-- Splash color
         ),
       ),
     );
@@ -204,8 +204,8 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         style: ElevatedButton.styleFrom(
           shape: CircleBorder(),
-          primary: Colors.white, // <-- Button color
-          onPrimary: Colors.white, // <-- Splash color
+          // primary: Colors.white, // <-- Button color
+          // onPrimary: Colors.white, // <-- Splash color
         ),
       ),
     );
@@ -220,13 +220,13 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         child: Icon(
           Icons.call_end,
-          color: Colors.white,
+          color: Colors.red,
         ),
         style: ElevatedButton.styleFrom(
           padding: EdgeInsets.all(20),
           shape: CircleBorder(),
-          primary: Colors.red, // <-- Button color
-          onPrimary: Colors.red, // <-- Splash color
+          // primary: Colors.red, // <-- Button color
+          // onPrimary: Colors.red, // <-- Splash color
         ),
       ),
     );
